@@ -1,0 +1,235 @@
+body {
+  background-color: #49b9de;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Inputs styles for initial page */
+.display {
+  padding: 50px 90px;
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(246, 248, 248);
+  font-weight: 500;
+}
+
+.content input {
+  width: 100%;
+  background-color: #eff1ef;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input::placeholder {
+  font-weight: 500;
+  opacity: 0.5;
+  color: black;
+}
+
+select, input {
+  width: 55%;
+  padding: 12px 20px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  background-color: rgb(246, 248, 248);
+  border-radius: 4px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.input-earnings label input::placeholder {
+  color: black;
+}
+
+label {
+  margin-top: 10px;
+  color: rgb(5, 66, 128);
+}
+
+.content button {
+  border: none;
+  padding: 15px 22px;
+  margin-top: 15px;
+  width: 100%;
+  height: 80%;
+  font-size: 17.5px;
+  background-color: #007bff;
+  cursor: pointer;
+}
+
+.content button a {
+  text-decoration: none;
+  color: rgb(251, 252, 253);
+}
+
+/* Full Content */
+.split {
+  height: 100%;
+  width: 60%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 2.5px;
+}
+
+h1 {
+  font-size: 22px;
+}
+h2 {
+  font-size: 18px;
+}
+
+.left {
+  left: 0;
+  color: rgb(5, 66, 128);
+  background-color: lightblue; 
+}
+
+.left .centered {
+  position: absolute;
+  top: 27%;
+  left: 37%;
+  transform: translate(-50%, -40%);
+  font-size: 14px;
+}
+
+.results {
+  margin: 0 100px;
+  padding: 0 55px;
+}
+
+.area {
+  width: 100%;
+  height: 135px;
+  margin: 50px 0px;
+  background-color: rgb(161, 199, 227);
+}
+
+.setted-info {
+  width: 35%;
+  margin: 8% 8% 0 9%;
+  padding: 2% 6%;
+  border: 1px solid rgb(137, 137, 184);
+}
+
+.setted-info h2 {
+  font-size: 16px;
+}
+
+.setted-info h1 {
+  font-size: 17px;
+}
+
+.right {
+  right: 0;
+  color: beige;
+  background-color: rgb(43, 43, 129);
+}
+
+.right .centered {
+  width: 320px;
+  height: 250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 40px;
+  padding: 30px 100px;
+  background-color: rgb(70, 60, 178);
+  border: 1px solid rgb(22, 16, 133);
+  border-radius: 20px;
+}
+
+.split .centered .equal h1 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 34px;
+}
+
+.header h1 {
+  text-align: center;
+  color: beige;
+}
+
+.header h2 {
+  background-color: rgb(70, 60, 178);
+  padding: 20px 10px;
+  margin: 20px 20px;
+  border-bottom: 20px;
+  border-radius: 20px;
+}
+
+.display-result h1, .details-salary h1 {
+  text-align: center;
+}
+
+.convert {
+  width: 100%;
+  display: flex;
+  /* background-color: #47437d;
+  padding: 14px 20px; */
+  margin: 25px 3px;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+/* Inputs styles for convert area  */
+
+.convert input {
+  width: 75%;
+  height: 50px;
+  background-color: #eff1ef;
+  color: black;
+  padding: 14px 20px;
+  margin: 0px 2px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.convert select {
+  width: 25%;
+  height: 50px;
+  background-color: #eff1ef;
+  color: black;
+  padding: 14px 12.5px;
+  margin: 0px 2px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* Error  */
+.error {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+
+.error button a {
+  text-decoration: none;
+  color: azure;
+}
+
+.error button {
+  border: none;
+  background-color: #f44336;
+  padding: 12px 1px;
+  margin-top: 10px;
+  margin-left: 82px;
+  width: 60%;
+  height: 80%;
+  font-size: 17.5px;
+  cursor: pointer;
+}
